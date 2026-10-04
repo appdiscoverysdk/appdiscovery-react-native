@@ -1,0 +1,53 @@
+{
+  "name": "appdiscovery-react-native",
+  "version": "1.0.0",
+  "description": "AppDiscovery offerwall SDK for React Native (Android and iOS)",
+  "main": "lib/index.js",
+  "module": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "react-native": "src/index.ts",
+  "source": "src/index.ts",
+  "files": [
+    "src",
+    "lib",
+    "android/build.gradle",
+    "android/src",
+    "ios",
+    "AppDiscoveryReactNative.podspec",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build && node --test test/*.test.js"
+  },
+  "keywords": [
+    "react-native",
+    "appdiscovery",
+    "offerwall",
+    "rewards",
+    "monetization",
+    "sdk"
+  ],
+  "homepage": "https://github.com/appdiscoverysdk/appdiscovery-react-native",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/appdiscoverysdk/appdiscovery-react-native.git"
+  },
+  "bugs": {
+    "url": "https://github.com/appdiscoverysdk/appdiscovery-react-native/issues"
+  },
+  "author": "AppDiscovery SDK",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "*",
+    "react-native": ">=0.64.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.0"
+  }
+}
